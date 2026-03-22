@@ -11,6 +11,7 @@ import AnotherBox from '../components/AnotherBox'
 import Asana from "../components/Asana"
 import Connect from '../components/Connect'
 import Iconic from '../components/Iconic'
+import Footer from '../components/Footer'
 
 const asanaLanding = () => {
   return (
@@ -27,7 +28,8 @@ const asanaLanding = () => {
       <AnotherBox/>
       <Asana/>
       <Connect/>
-      {/* <Iconic/> */}
+      <Iconic/>
+      <Footer/>
       </div>
     </>
   )
