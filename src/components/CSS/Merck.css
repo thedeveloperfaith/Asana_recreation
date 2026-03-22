@@ -1,0 +1,50 @@
+.container_85{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media(max-width:768px){
+    .container_85{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+
+.paragraph_wrapper{
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media(max-width:768px){
+    .paragraph_wrapper{
+        font-size: 22px;
+        margin-bottom: 20px;
+    }
+}
+.icons_container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: center; */
+}
+@media(max-width:768px){
+    .icons_container{
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+}
+
+.merck_wrapper img{
+    width: 150px;
+    /* font-size: 600; */
+
+}
+@media(max-width:768px){
+    .merck_wrapper img{
+        width: 60px;
+    }
+}
+
+

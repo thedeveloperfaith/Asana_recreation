@@ -19,7 +19,7 @@ const asanaLanding = () => {
       <Header/>
       <Button/>
       <Hero/>
-      {/* <Merck/> */}
+      <Merck/>
       {/* <Platform/> */}
       {/* <Box/> */}
       {/* <See/> */}
