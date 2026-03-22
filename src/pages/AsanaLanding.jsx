@@ -17,8 +17,8 @@ const asanaLanding = () => {
     <>
     <div className='site_wrapper'>
       <Header/>
-      {/* <Button/> */}
-      {/* <Hero/> */}
+      <Button/>
+      <Hero/>
       {/* <Merck/> */}
       {/* <Platform/> */}
       {/* <Box/> */}
