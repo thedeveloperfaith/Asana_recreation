@@ -6,8 +6,12 @@ const Connect = () => {
   return (
     <div className="connect_section">
         <section className="connect_text">
-            <h1>Connect over 300+ integrations</h1>
-            <p>Asana connects with the enterprise tools your organization already uses, right out of the box.</p>
+            <h1>Connect over 300+
+              <span className='break_between'>integrations</span> 
+            </h1>
+            <p>Asana connects with the enterprise tools your 
+              <span className='break_between'>organization already uses, right out of the box</span>
+            </p>
         </section>
 
         <div className="connect_button">

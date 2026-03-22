@@ -3,11 +3,11 @@ import "./CSS/See.css"
 
 const See = () => {
   return (
-    <div>
+    <div className='see_container'>
         <h1>
-            See how Asana keeps work moving across use cases
+            See how Asana keeps work
+            <span className='break_between'> moving across use cases</span>
         </h1>
-      
     </div>
   )
 }

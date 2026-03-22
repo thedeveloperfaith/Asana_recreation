@@ -14,7 +14,7 @@ const Box = () => {
 
         <div className='box_content'>
             <aside className='box_image'>
-                <img src="" alt="image"/>
+                <img src="https://assets.asana.biz/transform/a06e7cef-41f6-4474-b06e-ae0e43501edb/homepage_ai_update?io=transform:fill,width:2560&format=webp" alt="campaign_image"/>
             </aside>
 
             <article className='box_text'>
@@ -26,12 +26,9 @@ const Box = () => {
 
                    <li>Manage events and editorial calendars</li> 
                 </ul>
+                <Button text={"Get started"} className="get_started_box"/>
             </article>
         </div>
-        <div className='box_buttons'> 
-            <Button text={"Get started"} className="get_started_box"/>
-        </div>
-      
     </div>
   )
 }

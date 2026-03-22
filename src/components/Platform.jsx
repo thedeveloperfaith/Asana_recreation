@@ -3,11 +3,11 @@ import "./CSS/Platform.css"
 
 const Platform = () => {
   return (
-    <div>
-      <h1>
+    <div className='platform_section'>
+      <h1> 
         The platform for human + AI
-         collaboration
-      </h1>
+       <span className='break_between'>collaboration</span> 
+      </h1> 
     </div>
   )
 }

@@ -1,0 +1,44 @@
+.box_container{
+    padding: 40px ;
+}
+.box_buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.box_content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  margin-bottom: 30px;
+}
+
+.box_image img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 10px;
+}
+
+.box_text h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.box_text ul {
+  padding-left: 20px;
+}
+
+.box_text li {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+.get_started_box {
+  margin-top: 20px;
+}
+
+.box_container > .box_buttons:last-child {
+  justify-content: center;
+}

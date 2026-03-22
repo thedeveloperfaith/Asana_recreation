@@ -1,0 +1,11 @@
+.asana_container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+
+}
+
+.asana_middle{
+    flex: 1;
+}
